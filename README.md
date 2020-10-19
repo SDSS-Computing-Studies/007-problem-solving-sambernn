@@ -34,6 +34,11 @@ Open the file example1.py
 
 
 ##### Task 2: Become familiar with commands in the pyautogui module.
+Visit: https://pyautogui.readthedocs.io/en/latest/index.html
+Follow the instructions on installing pyautogui on your computer.
+You may need to add an additional installation parameter: --user
+
+
 
 ##### Task 3: Planning sequences of Events
 Write down the sequence of events or actions that you will need to program
