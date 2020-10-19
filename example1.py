@@ -34,14 +34,23 @@ been reached.
 
 def main():
     print("=============")
+
+    # stores current epoch time for display 
     curTime = time.time()
     print("Current epoch time is " + str(curTime))
     print("Going to sleep for 10 seconds now...")
+
+
+    # sleeps for 10 seconds
+    # uses a for loop to sleep for 1 second, 10 times
+    # print . after each second to show that the script hasn't crashed
     for i in range(0,10):
         print(".", end="")
         time.sleep(1)
     else:
-        print("")        
+        print("")   
+
+    # prints current epoch time         
     print("10 seconds have passed")
     curTime = time.time()
     print("Current epoch time is " + str(curTime))
